@@ -1,0 +1,100 @@
+:root {
+  --PColor: #fff;
+  --SColor: #313131;
+  --CornerRad: 4px;
+}
+
+body {
+  background-color: var(--PColor);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+details {
+  margin: 40px;
+}
+
+details {
+  margin: 40px;
+}
+
+details[open] .menu {
+  animation-name: Manima;
+}
+
+details[open] summary::before {
+  content: "X";
+}
+
+
+/*? เผื่อไว้ ในกรณีที่กดปิดแล้วจะเกิด X ยังอยู่ */
+details[open] summary::after {
+  content: "";
+}
+
+summary::before,
+summary::after {
+  position: static;
+  top: 0;
+  left: 0;
+}
+
+summary::before {
+  content: "";
+}
+
+summary::after {
+  content: "III";
+}
+
+summary::marker {
+  font-size: 0;
+}
+
+summary:hover {
+  transform: scale(1.1);
+}
+
+summary {
+  writing-mode: vertical-lr;
+  text-align: center;
+  padding: 12px 12px;
+  border: 2px solid var(--SColor);
+  border-radius: var(--CornerRad);
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 0;
+  width: fit-content;
+  margin-top: 5px;
+  box-shadow: 0 4px 12px 2px salmon;
+  border-radius: 10px;
+  animation: Closemenu 500ms ease-in-out forwards;
+}
+
+.menu a {
+  padding: 12px 24px;
+  margin: 0 16px;
+  color: var(--SColor);
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 2px solid salmon;
+  margin-top: 10px;
+}
+
+.menu a:hover {
+  filter: brightness(200%);
+}
+
+@keyframes Manima {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 200px;
+  }
+}

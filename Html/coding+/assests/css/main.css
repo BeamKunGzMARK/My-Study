@@ -1,0 +1,14 @@
+.centersuper {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+.manager {
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  left: 41.5%;
+}

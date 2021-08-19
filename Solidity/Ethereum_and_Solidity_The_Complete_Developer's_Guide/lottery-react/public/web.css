@@ -1,0 +1,37 @@
+head,
+body {
+        background-color: #30303d !important;
+        font-family: "Mali" !important;
+        color: #fff !important;
+}
+
+code {
+        font-family: "Mali";
+}
+
+.margininput {
+        margin-left: 20px;
+        margin-right: 20px;
+}
+
+.supercenter {
+        align-content: center;
+        text-align: center;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+}
+.margintopunder {
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.margintoper {
+        margin-top: 10px;
+}
+
+.fonter {
+        font-size: 16px;
+}
