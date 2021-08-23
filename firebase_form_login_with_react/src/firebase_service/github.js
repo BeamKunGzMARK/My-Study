@@ -27,8 +27,4 @@ export const signingithub = () =>
                 console.warn("Already exists email address.");
             }
         });
-
-
-export default firebase;
-
-    
+     export default firebase;

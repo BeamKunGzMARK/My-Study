@@ -2,7 +2,7 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import config from "../config.json"
 
-const firebaseConfig = config.configer;
+const firebaseConfig = config.data;
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 

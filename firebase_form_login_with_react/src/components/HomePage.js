@@ -12,8 +12,6 @@ function HomePage({ user }) {
 
     const [username, setusername] = useState(user.displayName);
 
-    console.log(user.photoURL)
-
     function callback(mail){
         if (/(avatars.githubusercontent.com)/.test(user.photoURL) === true) {
             console.log("[GITHUB]");

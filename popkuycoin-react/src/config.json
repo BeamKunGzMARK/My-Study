@@ -1,0 +1,12 @@
+{
+    "data":{
+        "apiKey": "AIzaSyAnpAZh6YMEUlb56hxGvfbAm0rrZqNnXfc",
+        "authDomain": "kuypopcoin.firebaseapp.com",
+        "projectId": "kuypopcoin",
+        "storageBucket": "kuypopcoin.appspot.com",
+        "messagingSenderId": "6442826531",
+        "appId": "1:6442826531:web:acd70b6f05421990e5ea96",
+        "databaseURL":"https://kuypopcoin-default-rtdb.asia-southeast1.firebasedatabase.app/",
+        "measurementId": "G-WJCY8YEK0N"
+    }
+}

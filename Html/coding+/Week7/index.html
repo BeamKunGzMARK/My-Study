@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assests/css/main.css" />
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+        <script src="./assests/js/katex.min.js"></script>
+        <script src="./assests/js/smrender.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mali">
+        <title>Html5,Css3,JavaScript | Week 7</title>
+    </head>
+    <body onload="myRender()"> 
+        <div class="centersize">
+        <h3 class="font">Welcome to KaTex Library</h3>
+        <br>
+        <p>$\sum_{i=1}^\infty\frac{i}{n^3}=\frac{\pi^2}{6}$</p>
+        <br>
+        <p>\(x = -b \pm \frac{\sqrt{a^3}}{a^2} \)</p>
+        <br>
+        <p>\(\begin{bmatrix} 2 & 6 & 4 \\ 10 & 8 & 3 \end{bmatrix} \begin{bmatrix} 8 & 10 \\ 3 & 2 \end{bmatrix} = x \)</p>
+        <p>\(x = \space ?\)</p>
+         <br>
+        <p>\(\int_{0}^1 \frac{x^4(1-x)^4}{1+x^2} dx = \frac{22}{7} = -\pi \)</p>
+        <br>
+        <p id="scripter"></p>
+
+        <script>
+            katex.render("\\int_{0}^1 \\frac{x^4(1-x)^4}{1+x^2} dx = \\frac{22}{7} = -\\pi", scripter)
+        </script>
+    </div>
+    </body>
+</html>
