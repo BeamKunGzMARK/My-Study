@@ -1,4 +1,4 @@
-## My Learning <img src="https://media.giphy.com/media/oz45ELYgMoYVsZqmor/giphy.gif" height="35" width="50"> [![Netlify Status](https://api.netlify.com/api/v1/badges/349b3635-c6b9-44df-841d-f4e10dfd5e2a/deploy-status)](https://app.netlify.com/sites/zealous-bell-d473df/deploys)
+## My Learning <img src="https://media.giphy.com/media/oz45ELYgMoYVsZqmor/giphy.gif" height="35" width="50"> [Visit]()
 การเรียนรู้ภาษาต่างๆ ของ นาย นวพรรษ บัวเกิด ( Nawpat Buakoet ) 
 
 ### [HTML5](https://github.com/BeamKunGzMARK/My-Study/tree/main/Html)
