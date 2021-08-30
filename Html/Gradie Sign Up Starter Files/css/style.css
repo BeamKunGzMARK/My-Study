@@ -1,0 +1,137 @@
+body {
+    background-image: url("../Assets/Background.png");
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-position: center;
+}
+
+*{
+  font-family: "Roboto";
+}
+
+.left{
+  background-color:#013142;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.loginlabel{
+  margin-top:30px;
+}
+
+.right{
+   display: flex; /* or inline-flex */
+  margin-top:30px;
+  background-color:#fff;
+  width:100%;
+  flex-direction: column;
+}
+
+.Gradie{
+  color:#fff;
+  margin-top:50px;
+}
+
+.beautiful{
+  color:#749AAD;
+}
+
+#main{
+  display: flex;
+  border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+  align-items: center;
+  top:50% !important;
+  transform: translate(0,25%);
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.b {
+  width: 50%;
+  padding: 20px;
+}
+
+
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  width:60% !important;
+  height: 600px !important;
+}
+
+.row{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.bold{
+  font-weight: bold;
+  margin-top:20px;
+}
+
+.phone{
+  width:100%;
+  height: auto;
+  display:absolute;
+  /* transform:translate(0,-20%) */
+}
+
+.phone::after{
+    clear: both;
+}
+
+#ckbox{
+  margin-top:10px;
+}
+
+.a-accept{
+  color:#013142;
+  font-weight: bold;
+}
+
+.connect{
+  display:flex;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+#cklabel{
+  margin-left:10px;
+  margin-top:5px;
+}
+
+.btncreate{
+  background-color:#013142;
+  color:#fff;
+  border:0;
+  height:60px;
+  text-align: center;
+}
+
+#email{
+  height:40px;
+}
+
+#password{
+  height:40px;
+}
+
+.pad{
+  padding:20px;
+  display:flex;
+    flex-direction: column;
+}
