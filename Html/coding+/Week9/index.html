@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quadratic Equation</title>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        />
+        <link rel="stylesheet" href="./assests/css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"
+            integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn"
+            crossorigin="anonymous"
+        />
+        <script src="./assests/js/katex.min.js"></script>
+        <script src="./assests/js/smrender.js"></script>
+        <script src="./assests/js/main.js"></script>
+    </head>
+
+    <body onload="myRender()">
+        <div class="main">
+            <div class="block left">
+                <h1 class="textunder">Quadratic Equation</h1>
+                <h2 class="centertext">$x=\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$</p>
+                <h1 class="textunder">Genetic Forms</h1>
+                <h2 class="centertext">$ax^2 + bx +c = 0$</h2>
+                <h2 class="centertext">Result</h2>
+                <h2 class="centertext" id="restextf"></h2>
+                 <h2 class="centertext" id="restext"></h2>
+                    <input type="text" id="res" disabled>
+                <button onclick="cal()" id="butcal">Calculate</button>
+            </div>
+            <div class="block right">
+                 <label for="anum">Number a : </label>
+                <input type="number" id="anum">
+                 <label for="bnum">Number b : </label>
+                <input type="number" id="bnum">
+                 <label for="cnum">Number c : </label>
+                <input type="number" id="cnum">
+            </div>
+        </div>
+    </body>
+</html>

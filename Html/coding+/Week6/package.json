@@ -12,5 +12,8 @@
     "STUDY"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "test.js": "^1.0.0"
+  }
 }
