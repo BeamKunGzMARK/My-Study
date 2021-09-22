@@ -1,6 +1,6 @@
 ## Week 10
 
--   วันนี้เราเรียนรู้คำสั่งต่างๆใน JavaScript เพิ่มเติม
+- วันนี้เราเรียนรู้คำสั่งต่างๆใน JavaScript เพิ่มเติม
 
 **Html5**
 
@@ -8,5 +8,5 @@
 
 **Javascript**
 
--   `jQuery`
--   `$(selector).css(property, value)`
+- `jQuery`
+- `$(selector).css(property, value)`
