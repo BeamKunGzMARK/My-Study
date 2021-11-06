@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&Mali&Kanit&display=swap");
+
+* {
+    font-family: "Mali";
+    font-size: 1rem;
+}
+
+#Slides {
+    display: block !important;
+    width: 1920px !important;
+    height: 768px !important;
+}
+
+.img-slides {
+    height: 768px !important;
+}
+
+.img-navbar {
+    width: 40px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.font-logo {
+    margin-left: 12px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fruktur", cursive !important;
+}
+.dropdown-menu[data-bs-popper] {
+    left: auto;
+}
