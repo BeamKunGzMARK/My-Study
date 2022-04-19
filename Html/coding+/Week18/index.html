@@ -23,82 +23,10 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <div class="container-fluid">
-                    <a href="#" class="navbar-brand"
-                        ><img
-                            src="https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1267px-Twitter_bird_logo_2012.svg.png"
-                            class="img-navbar"
-                        /><span class="font-logo">Twitter</span></a
-                    >
-
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarCollapse"
-                        aria-controls="navbarCollapse"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item">
-                                <a
-                                    href="#Home"
-                                    class="nav-link active"
-                                    aria-current="page"
-                                    >Home</a
-                                >
-                            </li>
-
-                            <li class="nav-item dropdwon">
-                                <a
-                                    href="#"
-                                    class="nav-link dropdown-toggle"
-                                    id="navbarDropdown"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                    >News</a
-                                >
-                                <ul
-                                    class="dropdown-menu"
-                                    aria-labelledby="navbarDropdown"
-                                >
-                                    <li class="dropdown-item">
-                                        <a href="#">React</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="#">ViteJS</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="#">Solidity</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                        <form class="d-flex">
-                            <input
-                                type="search"
-                                class="form-control me-2"
-                                placeholder="Search"
-                                aria-label="Search"
-                            />
-                            <button class="btn btn-outline-info" type="submit">
-                                Search
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <div
+            <div class="collapse bg-dark" id="navbarCollapse">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-6 py-3">    <div
                 id="Slides"
                 class="carousel carousel-fade slide img-fit"
                 data-bs-ride="carousel"
@@ -150,7 +78,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="carousel-indicators">
+                    <!-- <div class="carousel-indicators">
                         <button
                             type="button"
                             data-bs-target="#Slides"
@@ -171,14 +99,18 @@
                             data-bs-slide-to="2"
                             aria-label="Slide 3"
                         ></button>
-                    </div>
+                    </div> -->
+                   
                 </div>
+                
             </div>
+
             <button
                 class="carousel-control-prev"
                 type="button"
                 data-bs-target="#Slides"
                 data-bs-slide="prev"
+                
             >
                 <span class="carousel-control-prev-icon" aria-hidden="true">
                 </span>
@@ -190,11 +122,102 @@
                 type="button"
                 data-bs-target="#Slides"
                 data-bs-slide="next"
+              
             >
                 <span class="carousel-control-next-icon" aria-hidden="true">
                 </span>
                 <span class="visually-hidden">Next</span>
-            </button>
-        </main>
+            </button></div>
+                        <div class="col-md-2 px-md-5 py-3">
+                                  
+                <div class="container-fluid">
+                   
+
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+              
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a
+                                    href="#Home"
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    >Home</a
+                                >
+                            </li>
+
+                            <li class="nav-item dropdwon">
+                                <a
+                                    href="#"
+                                    class="nav-link dropdown-toggle"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >News</a
+                                >
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                >
+                                    <li class="dropdown-item">
+                                        <a href="#">React</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">ViteJS</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Solidity</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <form class="d-flex mt-2">
+                            <input
+                                type="search"
+                                class="form-control me-2 d-flex width-input-search"
+                                placeholder="Search"
+                                aria-label="Search"
+                            />
+                            <button class="btn btn-outline-info" type="submit">
+                                Search
+                            </button>
+                        </form>
+                    
+                </div>
+         
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="./img/bg_slide/2.jpg" alt="" width="40" height="40" class="rounded">
+                    <strong>Coding</strong>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+            </div>
+
+        </div>
+            </div>
+        </header>
     </body>
 </html>
